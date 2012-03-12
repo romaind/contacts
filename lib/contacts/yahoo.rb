@@ -65,7 +65,7 @@ module Contacts
 
     def parse_contacts(text)
       result = JSON.parse(text)
-      if result['contacts']
+      if result['contacts'] && result['contacts'].try(:[],'contact')
       result['contacts']['contact'].map do |contact_object|
         name, emails = nil, []
         contact_object['fields'].each do |field_object|
