@@ -4,8 +4,8 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{turing-contacts}
-  s.version = "0.2.6"
+  s.name = %q{contacts}
+  s.version = "0.2.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mislav Marohni\304\207", "George Ogata", "Julian Coutu"]
@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/windows_live/windows_live_spec.rb",
     "spec/yahoo/yahoo_spec.rb",
-    "turing-contacts.gemspec"
+    "ontacts.gemspec"
   ]
   s.homepage = %q{https://github.com/turingstudio/contacts}
   s.licenses = ["MIT"]
