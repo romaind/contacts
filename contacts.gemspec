@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/windows_live/windows_live_spec.rb",
     "spec/yahoo/yahoo_spec.rb",
-    "ontacts.gemspec"
+    "contacts.gemspec"
   ]
   s.homepage = %q{https://github.com/turingstudio/contacts}
   s.licenses = ["MIT"]
