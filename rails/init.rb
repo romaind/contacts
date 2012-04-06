@@ -1,5 +1,5 @@
 require 'contacts'
 Dir.glob('contacts/*.rb').each{|f| require f}
 
-config = YAML.load_file("#{Rails.root}/config/contacts.yml")
+config = YAML.load(ERB.new(IO.read("#{Rails.root}/config/contacts.yml")).result)
 Contacts.configure(config[Rails.env])
